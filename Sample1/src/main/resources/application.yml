@@ -1,0 +1,10 @@
+server:
+  port: 9192
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+ 
+  application:
+    name: sample1-service
+logging:
+  file: E:\ofc\abc.log
